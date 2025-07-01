@@ -29,16 +29,9 @@ These measure how much the data varies.
 - **Variance**: Average squared deviation from the mean.
 - **Standard Deviation (σ)**: Square root of variance; shows how spread out the values are.
 ---
-### 📌 Measures of Spread (Dispersion)
-These measure how much the data varies.
 
-- **Range**: Difference between maximum and minimum value.
-- **Variance**: Average squared deviation from the mean.
-- **Standard Deviation (σ)**: Square root of variance; shows how spread out the values are.
-
----
-
-### 📌 Common Visualization Methods
+### 📌 Data Representation
+## Common Visualization Methods
 
 | Chart Type     | Use Case                                      |
 |----------------|-----------------------------------------------|
@@ -50,7 +43,7 @@ These measure how much the data varies.
 
 ---
 
-## 🔍 Common Types of Data Distributions
+## 🔍 Common Types of Data Distributions 
 
 ### 1. 🟢 **Normal Distribution (Gaussian)**
 
@@ -59,7 +52,7 @@ These measure how much the data varies.
 - **Use Case**: Heights, IQ scores, measurement errors.
 - **Why it's important**: Many statistical tests assume normality.
 
-<img src="./Descriptive Statistics/Normal Distribution Img.png" alt="Normal Distribution" width="400"/>
+<img src="./Descriptive Statistics/Img/Normal Distribution Img.png" alt="Normal Distribution" width="400"/>
 
 
 
@@ -71,47 +64,44 @@ These measure how much the data varies.
 - **Use Case**: Income levels, waiting times.
 - **Why it's important**: Skew affects the reliability of mean.
 
-<img src="./Descriptive Statistics/positive skew.png" alt="Normal Distribution" width="300"/>
-<img src="./Descriptive Statistics/negative skew.png" alt="Normal Distribution" width="300"/>
+<img src="./Descriptive Statistics/Img/positive skew.png" alt="Positive Skewed Distribution" width="400"/>
+
+<img src="./Descriptive Statistics/Img/negative skew.png" alt="Negative Skewed Distribution" width="400"/>
 
 ---
 ### 3. 🟢 **Uniform Distribution**
 **Shape:** All values have equal probability.
-
 **Properties:** Flat distribution.
-
 **Use Case:** Simulations, rolling a fair die.
-
 **Why it's important:** Used as a baseline for randomness.
 
-<img src="./Descriptive Statistics/uniform distribution.png" alt="Normal Distribution" width="400"/>
+<img src="./Descriptive Statistics/Img/uniform distribution.png" alt="Uniform Distribution" width="400"/>
 
 ---
 
 ### 4. 🟢 **Bimodel Distribution**
 **Shape:** Two peaks/modes in the distribution.
-
 **Use Case:** Test scores of two different student groups.
-
 **Why it's important:** Indicates two different sub-populations.
 
-<img src="./Descriptive Statistics/bimodel distribution.png" alt="Normal Distribution" width="400"/>
+<img src="./Descriptive Statistics/Img/bimodel distribution.png" alt="Bimodel Distribution" width="400"/>
 
 ---
 
 ### 5. 🟢 **Multimodel Distribution**
 **Shape:** More than two peaks.
-
 **Use Case:** Complex populations (e.g., website traffic by different time zones).
-
 **Why it's important:** Highlights presence of multiple underlying groups.
 
-<img src="./Descriptive Statistics/multimodel distribution.png" alt="Normal Distribution" width="400"/>
+<img src="./Descriptive Statistics/Img/multimodel distribution.png" alt="Multimodel Distribution" width="400"/>
 
 ---
 
 ### ✅ Use case:
 > "To quickly understand the average age, income, or score in a dataset without making predictions."
+
+---
+
 ## 📗 2. Inferential Statistics
 
 Inferential statistics is the process of using sample data to make predictions or generalizations about a larger population, often with a measure of confidence or uncertainty.
